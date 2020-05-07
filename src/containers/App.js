@@ -4,7 +4,9 @@ import { connect } from 'react-redux';
 import { setSearchField, requestSigns } from '../actions';
 
 import CardList from '../components/CardList';
+import ErrorBoundry from '../components/ErrorBoundry';
 import Header from '../components/Header';
+import Scroll from '../components/Scroll';
 import SearchBox from '../components/SearchBox';
 
 import './App.css';
@@ -44,7 +46,15 @@ class App extends Component {
       <div className='tc'>
         <Header />
         <SearchBox searchChange={onSearchChange} />
-        {isPending ? <h1>Loading</h1> : <CardList signs={filteredSigns} />}
+        <Scroll>
+          {isPending ? (
+            <h1>Loading</h1>
+          ) : (
+            <ErrorBoundry>
+              <CardList signs={filteredSigns} />
+            </ErrorBoundry>
+          )}
+        </Scroll>
       </div>
     );
   }
