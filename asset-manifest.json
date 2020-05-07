@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/whats-your-sign/static/css/main.b63599b2.chunk.css",
-    "main.js": "/whats-your-sign/static/js/main.2d901fd3.chunk.js",
-    "main.js.map": "/whats-your-sign/static/js/main.2d901fd3.chunk.js.map",
+    "main.js": "/whats-your-sign/static/js/main.85477e8b.chunk.js",
+    "main.js.map": "/whats-your-sign/static/js/main.85477e8b.chunk.js.map",
     "runtime-main.js": "/whats-your-sign/static/js/runtime-main.a513e6a6.js",
     "runtime-main.js.map": "/whats-your-sign/static/js/runtime-main.a513e6a6.js.map",
     "static/css/2.036b41f9.chunk.css": "/whats-your-sign/static/css/2.036b41f9.chunk.css",
     "static/js/2.e1f03236.chunk.js": "/whats-your-sign/static/js/2.e1f03236.chunk.js",
     "static/js/2.e1f03236.chunk.js.map": "/whats-your-sign/static/js/2.e1f03236.chunk.js.map",
     "index.html": "/whats-your-sign/index.html",
-    "precache-manifest.9444cfd5d240f6d1d2d6497997d9d5e3.js": "/whats-your-sign/precache-manifest.9444cfd5d240f6d1d2d6497997d9d5e3.js",
+    "precache-manifest.ac8d007f763694a582eecfa30662085b.js": "/whats-your-sign/precache-manifest.ac8d007f763694a582eecfa30662085b.js",
     "service-worker.js": "/whats-your-sign/service-worker.js",
     "static/css/2.036b41f9.chunk.css.map": "/whats-your-sign/static/css/2.036b41f9.chunk.css.map",
     "static/css/main.b63599b2.chunk.css.map": "/whats-your-sign/static/css/main.b63599b2.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.036b41f9.chunk.css",
     "static/js/2.e1f03236.chunk.js",
     "static/css/main.b63599b2.chunk.css",
-    "static/js/main.2d901fd3.chunk.js"
+    "static/js/main.85477e8b.chunk.js"
   ]
 }

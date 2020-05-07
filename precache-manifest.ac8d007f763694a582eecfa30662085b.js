@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9946c36dd906dc634e9f2daf536bb63d",
+    "revision": "de93b7965f8f5d4899a23564ee6a16a8",
     "url": "/whats-your-sign/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/whats-your-sign/static/css/2.036b41f9.chunk.css"
   },
   {
-    "revision": "52d8f53b8bdcc4f75953",
+    "revision": "1f31756ec2afb23d9031",
     "url": "/whats-your-sign/static/css/main.b63599b2.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/whats-your-sign/static/js/2.e1f03236.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "52d8f53b8bdcc4f75953",
-    "url": "/whats-your-sign/static/js/main.2d901fd3.chunk.js"
+    "revision": "1f31756ec2afb23d9031",
+    "url": "/whats-your-sign/static/js/main.85477e8b.chunk.js"
   },
   {
     "revision": "17c700b0f74c86e0f159",
