@@ -5,6 +5,7 @@ import { setSearchField, requestSigns } from '../actions';
 
 import CardList from '../components/CardList';
 import Header from '../components/Header';
+import SearchBox from '../components/SearchBox';
 
 import './App.css';
 
@@ -34,12 +35,16 @@ class App extends Component {
   }
 
   render() {
-    const { signs, isPending } = this.props;
+    const { signs, searchField, onSearchChange, isPending } = this.props;
+    const filteredSigns = signs.filter((sign) => {
+      return sign.name.toLowerCase().includes(searchField.toLowerCase());
+    });
 
     return (
       <div className='tc'>
         <Header />
-        {isPending ? <h1>Loading</h1> : <CardList signs={signs} />}
+        <SearchBox searchChange={onSearchChange} />
+        {isPending ? <h1>Loading</h1> : <CardList signs={filteredSigns} />}
       </div>
     );
   }
