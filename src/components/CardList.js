@@ -15,6 +15,7 @@ const CardList = ({ signs }) => {
           luckyDay,
           rulingPlanet,
           qualities,
+          emojis,
         } = signs[index];
         return (
           <Card
@@ -27,6 +28,7 @@ const CardList = ({ signs }) => {
             luckyDay={luckyDay}
             rulingPlanet={rulingPlanet}
             qualities={qualities}
+            emojis={emojis}
           />
         );
       })}
