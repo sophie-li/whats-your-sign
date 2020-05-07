@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.904ed591.chunk.css",
-    "main.js": "/static/js/main.28d68324.chunk.js",
-    "main.js.map": "/static/js/main.28d68324.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.374da2b0.js",
-    "runtime-main.js.map": "/static/js/runtime-main.374da2b0.js.map",
-    "static/css/2.036b41f9.chunk.css": "/static/css/2.036b41f9.chunk.css",
-    "static/js/2.e1f03236.chunk.js": "/static/js/2.e1f03236.chunk.js",
-    "static/js/2.e1f03236.chunk.js.map": "/static/js/2.e1f03236.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.799b37321dfb3efff4d413b31b090b62.js": "/precache-manifest.799b37321dfb3efff4d413b31b090b62.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.036b41f9.chunk.css.map": "/static/css/2.036b41f9.chunk.css.map",
-    "static/css/main.904ed591.chunk.css.map": "/static/css/main.904ed591.chunk.css.map",
-    "static/js/2.e1f03236.chunk.js.LICENSE.txt": "/static/js/2.e1f03236.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/static/media/BebasNeue-Regular.afeaf679.woff"
+    "main.css": "/whats-your-sign/static/css/main.b63599b2.chunk.css",
+    "main.js": "/whats-your-sign/static/js/main.2d901fd3.chunk.js",
+    "main.js.map": "/whats-your-sign/static/js/main.2d901fd3.chunk.js.map",
+    "runtime-main.js": "/whats-your-sign/static/js/runtime-main.a513e6a6.js",
+    "runtime-main.js.map": "/whats-your-sign/static/js/runtime-main.a513e6a6.js.map",
+    "static/css/2.036b41f9.chunk.css": "/whats-your-sign/static/css/2.036b41f9.chunk.css",
+    "static/js/2.e1f03236.chunk.js": "/whats-your-sign/static/js/2.e1f03236.chunk.js",
+    "static/js/2.e1f03236.chunk.js.map": "/whats-your-sign/static/js/2.e1f03236.chunk.js.map",
+    "index.html": "/whats-your-sign/index.html",
+    "precache-manifest.9444cfd5d240f6d1d2d6497997d9d5e3.js": "/whats-your-sign/precache-manifest.9444cfd5d240f6d1d2d6497997d9d5e3.js",
+    "service-worker.js": "/whats-your-sign/service-worker.js",
+    "static/css/2.036b41f9.chunk.css.map": "/whats-your-sign/static/css/2.036b41f9.chunk.css.map",
+    "static/css/main.b63599b2.chunk.css.map": "/whats-your-sign/static/css/main.b63599b2.chunk.css.map",
+    "static/js/2.e1f03236.chunk.js.LICENSE.txt": "/whats-your-sign/static/js/2.e1f03236.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/whats-your-sign/static/media/BebasNeue-Regular.afeaf679.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.374da2b0.js",
+    "static/js/runtime-main.a513e6a6.js",
     "static/css/2.036b41f9.chunk.css",
     "static/js/2.e1f03236.chunk.js",
-    "static/css/main.904ed591.chunk.css",
-    "static/js/main.28d68324.chunk.js"
+    "static/css/main.b63599b2.chunk.css",
+    "static/js/main.2d901fd3.chunk.js"
   ]
 }
