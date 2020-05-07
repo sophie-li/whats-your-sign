@@ -25,3 +25,29 @@ img {
   border: 1px solid black;
   clear: both;
 }
+
+/* style mobile first */
+@media only screen and (max-width: 640px) {
+  .card {
+    padding: 1rem;
+    margin: 5px 10px;
+  }
+}
+
+/* tablet */
+@media only screen and (min-width: 641px) and (max-width: 1024px) {
+  .card {
+    width: 45%;
+    padding: 1rem;
+    margin-right: 0.5rem;
+  }
+}
+
+/* desktop */
+@media only screen and (min-width: 1025px) {
+  .card {
+    width: 25%;
+    padding: 1rem;
+    margin-right: 0.5rem;
+  }
+}

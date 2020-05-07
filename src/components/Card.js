@@ -27,7 +27,7 @@ const Card = ({
   };
 
   return (
-    <div className='tc grow bg-light-pink br3 pa3 ma2 dib bw2 shadow-5 w-25 pa3 mr2'>
+    <div className='card tc grow bg-light-pink br3 pa3 ma2 dib bw2 shadow-5'>
       <img alt='sign' src={`./images/${name}.png`} />
       <h2 className='ttu tracked'>
         {name}
