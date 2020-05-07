@@ -28,7 +28,7 @@ const Card = ({
 
   return (
     <div className='card tc grow bg-light-pink br3 pa3 ma2 dib bw2 shadow-5'>
-      <img alt='sign' src={`./images/${name}.png`} />
+      <img alt='sign' src={process.env.PUBLIC_URL + `/images/${name}.png`} />
       <h2 className='ttu tracked'>
         {name}
         <Emoji symbol={emojis.name} label={name} />
