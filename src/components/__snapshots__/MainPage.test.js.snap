@@ -15,19 +15,3 @@ exports[`expect to render MainPage 1`] = `
   </Scroll>
 </div>
 `;
-
-exports[`filters signs correctly 1`] = `
-<div
-  className="tc"
->
-  <Header />
-  <SearchBox />
-  <Scroll>
-    <ErrorBoundary>
-      <CardList
-        signs={Array []}
-      />
-    </ErrorBoundary>
-  </Scroll>
-</div>
-`;

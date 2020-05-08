@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`expect to render SearchBox component 1`] = `
+<div
+  className="pa2 inline-flex"
+>
+  <input
+    aria-label="Search"
+    className="pa3 ba b--purple bg-washed-red"
+    placeholder="Search Sign"
+    type="search"
+  />
+  <RandomImage />
+</div>
+`;

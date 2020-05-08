@@ -6,11 +6,7 @@ class Header extends Component {
   }
 
   render() {
-    return (
-      <div>
-        <h1 className='f1'>WHAT'S YOUR SIGN?</h1>
-      </div>
-    );
+    return <h1 className='f1'>WHAT'S YOUR SIGN?</h1>;
   }
 }
 
