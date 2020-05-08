@@ -3,13 +3,7 @@ import { connect } from 'react-redux';
 
 import { setSearchField, requestSigns } from '../actions';
 
-import CardList from '../components/CardList';
-import ErrorBoundry from '../components/ErrorBoundry';
-import Header from '../components/Header';
-import Scroll from '../components/Scroll';
-import SearchBox from '../components/SearchBox';
-
-import './App.css';
+import MainPage from '../components/MainPage';
 
 const mapStateToProps = (state) => {
   return {
@@ -27,38 +21,8 @@ const mapDispatchToProps = (dispatch) => {
 };
 
 class App extends Component {
-  constructor() {
-    super();
-    this.state = {
-      imageID: 1,
-    };
-  }
-
-  componentDidMount() {
-    this.props.onRequestSigns();
-  }
-
   render() {
-    const { signs, searchField, onSearchChange, isPending } = this.props;
-    const filteredSigns = signs.filter((sign) => {
-      return sign.name.toLowerCase().includes(searchField.toLowerCase());
-    });
-
-    return (
-      <div className='tc'>
-        <Header imageID={this.state.count} />
-        <SearchBox searchChange={onSearchChange} />
-        <Scroll>
-          {isPending ? (
-            <h1>Loading</h1>
-          ) : (
-            <ErrorBoundry>
-              <CardList signs={filteredSigns} />
-            </ErrorBoundry>
-          )}
-        </Scroll>
-      </div>
-    );
+    return <MainPage {...this.props} />;
   }
 }
 
