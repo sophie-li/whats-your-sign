@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`expect to render Card component 1`] = `
+<div
+  className="card tc grow bg-light-pink br3 pa3 ma2 dib bw2 shadow-5"
+>
+  <img
+    alt="sign"
+    src="/images/undefined.png"
+  />
+  <h2
+    className="ttu tracked"
+  >
+    <Emoji />
+  </h2>
+  <div
+    className="ttu"
+  >
+    <span
+      className="b"
+    >
+      Symbol:
+    </span>
+     
+     
+    <Emoji />
+  </div>
+  <div
+    className="ttu"
+  >
+    <span
+      className="b"
+    >
+      Spirit Color:
+    </span>
+     
+    <div
+      className="square-color"
+      style={
+        Object {
+          "backgroundColor": undefined,
+        }
+      }
+    />
+  </div>
+  <div
+    className="ttu"
+  >
+    <span
+      className="b"
+    >
+      Lucky Numbers:
+    </span>
+     
+    1, 9
+  </div>
+  <div
+    className="ttu"
+  >
+    <span
+      className="b"
+    >
+      Lucky Day:
+    </span>
+     
+  </div>
+  <div
+    className="ttu"
+  >
+    <span
+      className="b"
+    >
+      Ruling Planet:
+    </span>
+     
+     
+    <Emoji />
+  </div>
+  <div
+    className="ttu"
+  >
+    <span
+      className="b"
+    >
+      Qualities:
+    </span>
+     
+    brave, optimistic, passionate, active, energetic
+  </div>
+</div>
+`;

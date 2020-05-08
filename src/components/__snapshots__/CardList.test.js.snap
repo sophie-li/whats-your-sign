@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`expect to render CardList component 1`] = `
+<div
+  className="flex flex-wrap justify-center"
+>
+  <Card
+    emojis={
+      Object {
+        "name": "♈",
+        "planet": "♂️",
+        "symbol": "🐏",
+      }
+    }
+    id={1}
+    key="0"
+    luckyDay="tuesday"
+    luckyNumbers={
+      Array [
+        1,
+        9,
+      ]
+    }
+    name="aries"
+    qualities={
+      Array [
+        "brave",
+        "optimistic",
+        "passionate",
+        "active",
+        "energetic",
+      ]
+    }
+    rulingPlanet="Mars"
+    spiritColor="red"
+    symbol="the ram"
+  />
+</div>
+`;

@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`expect to render RandomImage component 1`] = `
+<img
+  alt="random magic"
+  className="magic-img"
+  id="magic-img"
+  onClick={[Function]}
+  src="/images/magic/magic-1.png"
+/>
+`;

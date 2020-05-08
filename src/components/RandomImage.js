@@ -25,6 +25,7 @@ class RandomImage extends Component {
     const url = process.env.PUBLIC_URL + `/images/magic/magic-${imageID}.png`;
     return (
       <img
+        id='magic-img'
         src={url}
         className='magic-img'
         onClick={this.updateImageID}
