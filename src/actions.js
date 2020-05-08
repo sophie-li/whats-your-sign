@@ -10,7 +10,7 @@ export const setSearchField = (text) => ({
   payload: text,
 });
 
-export const requestSigns = (dispatch) => {
+export const requestSigns = () => (dispatch) => {
   dispatch({ type: REQUEST_SIGN_PENDING });
 
   fetch(

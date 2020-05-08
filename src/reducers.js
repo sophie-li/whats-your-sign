@@ -20,7 +20,7 @@ export const searchSigns = (state = initialStateSearch, action = {}) => {
 
 const initialStateSigns = {
   signs: [],
-  isPending: true,
+  isPending: false,
 };
 
 export const requestSigns = (state = initialStateSigns, action = {}) => {
