@@ -29,7 +29,9 @@ const mapDispatchToProps = (dispatch) => {
 class App extends Component {
   constructor() {
     super();
-    this.state = {};
+    this.state = {
+      imageID: 1,
+    };
   }
 
   componentDidMount() {
@@ -44,7 +46,7 @@ class App extends Component {
 
     return (
       <div className='tc'>
-        <Header />
+        <Header imageID={this.state.count} />
         <SearchBox searchChange={onSearchChange} />
         <Scroll>
           {isPending ? (

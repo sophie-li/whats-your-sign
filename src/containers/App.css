@@ -17,6 +17,16 @@ img {
   width: 100px;
 }
 
+.magic-img {
+  height: 50px;
+  width: 50px;
+  padding: 10px;
+}
+
+.magic-img:hover {
+  cursor: pointer;
+}
+
 .square-color {
   display: inline-block;
   height: 13px;
