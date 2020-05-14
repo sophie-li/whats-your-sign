@@ -1,20 +1,33 @@
 version: 2.1
 jobs:
-  hello:
+  build:
     docker:
-      - image: circleci/node:4.8.2 # the primary container, where your job's commands are run
+      - image: circleci/node:8.9
     steps:
-      - checkout # check out the code in the project directory
-      - run: echo "hello world" # run the `echo` command
-  woohoo:
+      - checkout
+      - run: echo "npm installing"
+      - run: npm install
+      - run: CI=true npm run build
+  test:
     docker:
-      - image: circleci/node:4.8.2 # the primary container, where your job's commands are run
+      - image: circleci/node:8.9
     steps:
-      - checkout # check out the code in the project directory
-      - run: echo "woohoo" # run the `echo` command
+      - checkout
+      - run: echo "testing"
+      - run: npm install
+      - run: npm test
+  sparkles:
+    docker:
+      - image: circleci/node:8.9
+    steps:
+      - checkout
+      - run: echo "✨✨✨"
 workflows:
   version: 2
-  hello_woohoo:
+  build_test_lint:
     jobs:
-      - hello
-      - woohoo
+      - build
+      - sparkles
+      - test
+        requires:
+          - sparkles
