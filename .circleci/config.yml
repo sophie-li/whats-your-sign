@@ -1,0 +1,32 @@
+version: 2.1
+jobs:
+  build:
+    docker:
+      - image: circleci/node:8.9
+    steps:
+      - checkout
+      - run: echo "npm installing"
+      - run: npm install
+  test:
+    docker:
+      - image: circleci/node:8.9
+    steps:
+      - checkout
+      - run: echo "testing"
+      - run: npm install
+      - run: npm test
+  sparkles:
+    docker:
+      - image: circleci/node:8.9
+    steps:
+      - checkout
+      - run: echo "✨✨✨"
+workflows:
+  version: 2
+  build_test_lint:
+    jobs:
+      - build
+      - sparkles
+      - test:
+          requires:
+            - sparkles
