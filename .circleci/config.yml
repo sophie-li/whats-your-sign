@@ -29,5 +29,5 @@ workflows:
       - build
       - sparkles
       - test:
-        requires:
-          - sparkles
+          requires:
+            - sparkles
